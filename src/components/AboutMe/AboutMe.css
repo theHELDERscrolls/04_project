@@ -1,0 +1,66 @@
+@keyframes carousel {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#aboutMe {
+  width: 100%;
+  height: auto;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+
+  #imgProfile {
+    border-radius: 50px;
+  }
+
+  #social {
+    background-color: rebeccapurple;
+    width: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .social-link {
+      padding: 1em;
+      background-color: green;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 1em;
+    }
+  }
+}
+
+#icons {
+  border: 2px solid red;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  gap: 3em;
+}
+
+#icons-carousel {
+  display: flex;
+  background-color: lawngreen;
+  display: inline-block;
+  gap: 3em;
+
+  /* animation: 20s carousel linear infinite; */
+
+  img {
+    filter: grayscale(1);
+  }
+}

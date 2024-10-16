@@ -19,7 +19,7 @@ export const createNavbar = () => {
                     ${btnTemplate(
                       "changeMode-btn",
                       "",
-                      "/assets/icons/icon_system.svg",
+                      "/assets/icons/icon_moon.svg",
                       "mode button",
                       ""
                     )}
