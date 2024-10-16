@@ -1,0 +1,40 @@
+.default-display-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  #navbar {
+    width: 100%;
+    height: 10vh;
+
+    ul {
+      background-color: grey;
+      border-radius: 20px;
+      width: auto;
+      gap: 1.5em;
+      padding: 1em;
+      height: 3rem;
+
+      li {
+        button {
+          border-radius: 10px;
+          width: 2em;
+          height: 2em;
+
+          img {
+            width: 1em;
+            height: 1em;
+          }
+        }
+      }
+    }
+  }
+}
