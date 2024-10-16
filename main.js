@@ -5,7 +5,7 @@ import { createAboutMe } from "./src/components/AboutMe/AboutMe";
 
 const init = () => {
   createNavbar();
-  createAboutMe();
+ // createAboutMe();
 };
 
 init();

@@ -1,8 +1,8 @@
 :root {
   --bg-dark: #2c2c2c;
   --bg-light: #e8e8e8;
-  --detail-dark: #50c878;
-  --detail-light: #ff8c00;
+  --detail-dark: #00ff6a;
+  --detail-light: #ff5e00;
   --font-dark: #eaeaea;
   --font-light: #2c2c2c;
 }
@@ -15,10 +15,11 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  color: black;
 }
 
 body {
+  background-color: var(--bg-dark);
+
   transition: all 0.3s ease-in-out;
 }
 
@@ -39,3 +40,10 @@ footer {
   height: 10vh;
   border: 2px solid blue;
 }
+
+.default-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

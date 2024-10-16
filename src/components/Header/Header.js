@@ -4,32 +4,23 @@ import "./Header.css";
 export const createNavbar = () => {
   const header = document.querySelector("header");
   header.innerHTML = `
-        <nav id="navbar" class="default-display-navbar">
-            <ul class="default-display-navbar">
-                <li class="default-display-navbar">
+        <nav id="navbar" class="default-display">
+            <ul class="default-display">
+                <li class="default-display">
                     <a href="#">About</a>
                 </li>
-                <li class="default-display-navbar">
+                <li class="default-display">
                     <a href="#">Experience</a>
                 </li>
-                <li class="default-display-navbar">
+                <li class="default-display">
                     <a href="#">Projects</a>
                 </li>
-                <li class="default-display-navbar">
+                <li class="default-display">
                     ${btnTemplate(
                       "changeMode-btn",
-                      "",
+                      "default-display",
                       "/assets/icons/icon_moon.svg",
                       "mode button",
-                      ""
-                    )}
-                </li>
-                <li class="default-display-navbar">
-                    ${btnTemplate(
-                      "changeLang-btn",
-                      "",
-                      "/assets/icons/icon_language.svg",
-                      "language button",
                       ""
                     )}
                 </li>
