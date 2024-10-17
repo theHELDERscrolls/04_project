@@ -86,6 +86,7 @@ footer {
     }
 
     a {
+      background-color: var(--bg-light);
       color: var(--font-light);
     }
   }
@@ -109,5 +110,10 @@ footer {
     img {
       filter: invert(0);
     }
+  }
+
+  #icons img:nth-child(5),
+  #icons img:nth-child(11) {
+    filter: invert(0);
   }
 }

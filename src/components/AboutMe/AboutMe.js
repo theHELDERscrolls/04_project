@@ -1,4 +1,6 @@
 import "./AboutMe.css";
+import "./IconRain.css";
+
 
 import { dataProfile } from "../../../data/myProfile";
 import { anchorTemplate } from "../Anchor/Anchor";
@@ -39,23 +41,21 @@ export const createAboutMe = () => {
             </div>
             <p>${dataProfile.aboutMe}</p>
             <div id="icons">
-              <div id="icons-carousel">
-                <img src="/assets/icons/icon_angular.svg" alt="Angular">
-                <img src="/assets/icons/icon_css.svg" alt="CSS3">
-                <img src="/assets/icons/icon_figma.svg" alt="Figma">
-                <img src="/assets/icons/icon_git.svg" alt="Git">
-                <img src="/assets/icons/icon_github.svg" alt="Github">
-                <img src="/assets/icons/icon_html5.svg" alt="HTML5">
-                <img src="/assets/icons/icon_java.svg" alt="Java">
-                <img src="/assets/icons/icon_javascript.svg" alt="JavaScript">
-                <img src="/assets/icons/icon_lightroom.svg" alt="Lightroom">
-                <img src="/assets/icons/icon_mysql.svg" alt="MySQL">
-                <img src="/assets/icons/icon_php.svg" alt="PHP">
-                <img src="/assets/icons/icon_react.svg" alt="React">
-                <img src="/assets/icons/icon_sass.svg" alt="Sass">
-                <img src="/assets/icons/icon_vitejs.svg" alt="Vite">
-                <img src="/assets/icons/icon_vscode.svg" alt="Visual Studio Code">
-              </div>
+              <img src="/assets/icons/icon_angular.svg" alt="Angular">
+              <img src="/assets/icons/icon_css.svg" alt="CSS3">
+              <img src="/assets/icons/icon_figma.svg" alt="Figma">
+              <img src="/assets/icons/icon_git.svg" alt="Git">
+              <img src="/assets/icons/icon_github.svg" alt="Github">
+              <img src="/assets/icons/icon_html5.svg" alt="HTML5">
+              <img src="/assets/icons/icon_java.svg" alt="Java">
+              <img src="/assets/icons/icon_javascript.svg" alt="JavaScript">
+              <img src="/assets/icons/icon_lightroom.svg" alt="Lightroom">
+              <img src="/assets/icons/icon_mysql.svg" alt="MySQL">
+              <img src="/assets/icons/icon_php.svg" alt="PHP">
+              <img src="/assets/icons/icon_react.svg" alt="React">
+              <img src="/assets/icons/icon_sass.svg" alt="Sass">
+              <img src="/assets/icons/icon_vitejs.svg" alt="Vite">
+              <img src="/assets/icons/icon_vscode.svg" alt="Visual Studio Code">
             </div>
           </section>
 `;
