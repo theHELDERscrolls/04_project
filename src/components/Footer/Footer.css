@@ -1,6 +1,5 @@
 footer {
   align-items: center;
-  border: 2px solid blue;
   color: var(--font-dark);
   display: flex;
   flex-direction: column;
