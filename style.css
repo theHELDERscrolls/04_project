@@ -26,9 +26,9 @@ body {
 main {
   width: 100%;
   height: 90vh;
-  border: 2px solid green;
   padding: 1em;
 
+  /*! REMEMBER DELETE THIS. IS JUST TO LAYOUT IT EASIER */
   img {
     width: 50px;
     height: 50px;
@@ -37,7 +37,7 @@ main {
 
 footer {
   width: 100%;
-  height: 10vh;
+  max-height: 10vh;
   border: 2px solid blue;
 }
 
@@ -72,6 +72,42 @@ footer {
           }
         }
       }
+    }
+  }
+
+  #aboutMe {
+    color: var(--font-light);
+
+    h1 {
+      color: var(--bg-light);
+      -webkit-text-stroke: 1px var(--detail-light);
+
+      animation: neonLight 2s alternate infinite;
+    }
+
+    a {
+      color: var(--font-light);
+    }
+  }
+
+  #imgProfile {
+    border: 1px solid var(--detail-light);
+
+    animation: neonLight 2s alternate infinite;
+  }
+
+  #social {
+    .social-link {
+      box-shadow: 2px 2px 0px var(--font-light);
+
+      &:active {
+        border: 2px solid var(--detail-light);
+        box-shadow: 0px 0px 5px var(--detail-light);
+      }
+    }
+
+    img {
+      filter: invert(0);
     }
   }
 }

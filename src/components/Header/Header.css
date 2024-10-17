@@ -19,24 +19,24 @@ header {
 
       li {
         button {
-          border: 2px solid var(--bg-dark);
-          border-radius: 10px;
-          box-shadow: 2px 2px 0px var(--font-dark);
           background-color: transparent;
+          border-radius: 10px;
+          border: 2px solid var(--bg-dark);
+          box-shadow: 2px 2px 0px var(--font-dark);
           height: 2.5em;
           width: 2.5em;
 
           transition: all 0.1s ease-in-out;
 
           &:active {
-            transform: translateX(2px) translateY(2px);
             box-shadow: 0px 0px 0px var(--font-dark);
+            transform: translateX(2px) translateY(2px);
           }
 
           img {
-            width: 2em;
-            height: 2em;
             filter: invert(1);
+            height: 2em;
+            width: 2em;
           }
         }
 
@@ -49,7 +49,7 @@ header {
           &:hover,
           &:focus {
             color: var(--detail-dark);
-            filter: drop-shadow(0px 0px 20px var(--detail-dark));
+            filter: drop-shadow(0px 0px 10px var(--detail-dark));
           }
 
           &:active {

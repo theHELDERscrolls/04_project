@@ -1,66 +1,94 @@
-@keyframes carousel {
+@keyframes neonDark {
   from {
-    transform: translateX(0%);
+    filter: drop-shadow(0px 0px 2px var(--detail-dark));
   }
   to {
-    transform: translateX(-100%);
+    filter: drop-shadow(0px 0px 5px var(--detail-dark));
+  }
+}
+
+@keyframes neonLight {
+  from {
+    filter: drop-shadow(0px 0px 2px var(--detail-light));
+  }
+  to {
+    filter: drop-shadow(0px 0px 5px var(--detail-light));
   }
 }
 
 #aboutMe {
-  width: 100%;
-  height: auto;
-  background-color: blanchedalmond;
-  display: flex;
   align-items: center;
+  border: 1px solid red;
+  color: var(--font-dark);
+  display: flex;
   flex-direction: column;
   gap: 2em;
-
-  #imgProfile {
-    border-radius: 50px;
-  }
-
-  #social {
-    background-color: rebeccapurple;
-    width: 25em;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    img {
-      width: 25px;
-      height: 25px;
-    }
-
-    .social-link {
-      padding: 1em;
-      background-color: green;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      gap: 1em;
-    }
-  }
-}
-
-#icons {
-  border: 2px solid red;
-  width: 100%;
   height: auto;
-  overflow: hidden;
-  white-space: nowrap;
-  gap: 3em;
+  width: 100%;
+
+  h1 {
+    color: var(--bg-dark);
+    font-size: 3em;
+    -webkit-text-stroke: 1px var(--detail-dark);
+
+    animation: neonDark 2s alternate infinite;
+  }
+
+  a {
+    color: var(--font-dark);
+  }
 }
 
-#icons-carousel {
-  display: flex;
-  background-color: lawngreen;
-  display: inline-block;
-  gap: 3em;
+#imgProfile {
+  border: 1px solid var(--detail-dark);
+  border-radius: 200px;
+  height: 15em;
+  width: 15em;
 
-  /* animation: 20s carousel linear infinite; */
+  animation: neonDark 2s alternate infinite;
+}
+
+/*TODO: hide the anchor's text at media query */
+
+#social {
+  display: flex;
+  gap: 2em;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+
+  .social-link {
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 0px var(--font-dark);
+    display: flex;
+    gap: 1em;
+    padding: 0.5em 1em;
+
+    transition: all 0.1s ease-in-out;
+
+    &:active {
+      border: 2px solid var(--detail-dark);
+      box-shadow: 0px 0px 5px var(--detail-dark);
+      transform: translateX(2px) translateY(2px);
+    }
+  }
 
   img {
-    filter: grayscale(1);
+    filter: grayscale(1) invert(1);
+    width: 1em;
+    height: 1em;
+  }
+}
+
+@media (max-width: 475px) {
+  #social {
+    span {
+      display: none;
+    }
+    img {
+      width: 2em;
+      height: 2em;
+    }
   }
 }

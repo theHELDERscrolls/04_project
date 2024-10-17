@@ -1,5 +1,5 @@
 export const dataProfile = {
-  name: "Helder Manuel",
+  name: "Helder M.",
   email: "manuhelderruiz@gmail.com",
   avatar: "/assets/images/profile_img.jpg",
   aboutMe:

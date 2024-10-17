@@ -7,7 +7,7 @@ import { lighDarkBtn } from "./src/utils/changeMode";
 const init = () => {
   createNavbar();
   lighDarkBtn();
-  // createAboutMe();
+  createAboutMe();
 };
 
 init();
