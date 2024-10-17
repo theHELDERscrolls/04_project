@@ -36,21 +36,23 @@
   a {
     background-color: var(--bg-dark);
     color: var(--font-dark);
+    font-weight: bold;
   }
 
   p {
-    width: 100%;
+    font-weight: 400;
     height: auto;
     padding: 0 20%;
-    font-weight: 400;
+    width: 100%;
+    letter-spacing: 0.05em;
   }
 }
 
 #imgProfile {
   border: 1px solid var(--detail-dark);
   border-radius: 200px;
-  height: 15em;
-  width: 15em;
+  height: 12em;
+  width: 12em;
 
   animation: neonDark 2s alternate infinite;
 }
