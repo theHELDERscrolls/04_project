@@ -28,7 +28,8 @@
   h1 {
     color: var(--bg-dark);
     font-size: 3em;
-    -webkit-text-stroke: 1px var(--detail-dark);
+    text-shadow: 1px 1px 0 var(--detail-dark), -1px 1px 0 var(--detail-dark),
+      1px -1px 0 var(--detail-dark), -1px -1px 0 var(--detail-dark);
 
     animation: neonDark 2s alternate infinite;
   }

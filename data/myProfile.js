@@ -26,7 +26,6 @@ export const dataProfile = {
       graduationYear: 2021,
     },
   ],
-  relevantCourses: ["Responsive Web Design"], //! PONERRRRRRRRRRRRRRRRRRRRRR
   workExperience: [
     {
       position: "Web Developer",
