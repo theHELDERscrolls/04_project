@@ -31,25 +31,25 @@ export const dataProfile = {
       position: "Web Developer",
       company: "Freelance",
       startDate: 2024,
-      endDate: "Ongoing",
+      endDate: "Now",
       description:
-        "Experienced professional in end-to-end web development, working with individuals and businesses to create efficient and tailored digital solutions. Specializes in turning ideas into functional products that streamline processes and meet strategic goals",
+        "Experienced professional in end-to-end web development, working with individuals and businesses to create efficient and tailored digital solutions. Specializes in turning ideas into functional products that streamline processes and meet strategic goals.",
     },
     {
       position: "Researcher",
-      company: "Raquis: Aparato Locomotor y Deporte",
+      company: "Raquis, HP",
       startDate: 2018,
       endDate: 2020,
       description:
         "I collaborated on various research projects focused on the prevention and assessment of injury risk in diverse populations, including athletes, individuals with reduced mobility, injuries, or physical disabilities. My work centered on the analysis of joint range of motion to develop preventive strategies and enhance the quality of life for participants.",
     },
     {
-      position: "Personal trainer & therapist",
+      position: "PT & therapist",
       company: "Nutrir",
       startDate: 2020,
       endDate: 2023,
       description:
-        "As a trainer and clinical therapist, I specialize in designing and implementing training programs focused on improving health, with a particular emphasis on managing and alleviating chronic pain conditions such as arthritis and osteoarthritis. Additionally, I work with athletes to optimize their performance by developing personalized strength training routines tailored to their individual needs",
+        "As a trainer and clinical therapist, I specialize in designing and implementing training programs focused on improving health, with a particular emphasis on managing and alleviating chronic pain conditions such as arthritis and osteoarthritis. Additionally, I work with athletes to optimize their performance by developing personalized strength training routines tailored to their individual needs.",
     },
   ],
   skills: [

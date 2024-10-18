@@ -7,10 +7,10 @@ export const createNavbar = () => {
         <nav id="navbar" class="default-display">
             <ul class="default-display">
                 <li class="default-display">
-                    <a href="#">About</a>
+                    <a href="#aboutMe">About</a>
                 </li>
                 <li class="default-display">
-                    <a href="#">Experience</a>
+                    <a href="#work-experience">Experience</a>
                 </li>
                 <li class="default-display">
                     <a href="#">Projects</a>

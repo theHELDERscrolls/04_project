@@ -1,5 +1,6 @@
 header {
   background-color: var(--bg-dark);
+  background-image: url(./public/assets/images/carbon-fibre.png);
   height: 10vh;
   position: sticky;
   top: 0;
@@ -20,7 +21,7 @@ header {
 
       li {
         button {
-          background-color: transparent;
+          background-color: var(--bg-dark);
           border-radius: 10px;
           border: 2px solid var(--bg-dark);
           box-shadow: 2px 2px 0px var(--font-dark);
