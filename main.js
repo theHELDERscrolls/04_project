@@ -6,13 +6,14 @@ import { lighDarkBtn } from "./src/utils/changeMode";
 import { createFooter } from "./src/components/Footer/Footer";
 import { createExperience } from "./src/components/Experience/Experience";
 import { activeDisplay } from "./src/utils/displayElement";
+import { createEducation } from "./src/components/Education/Education";
 
 const init = () => {
   createNavbar();
   lighDarkBtn();
-  createAboutMe();
-  createExperience();
+  createAboutMe();  createExperience();
   activeDisplay();
+  createEducation();
   createFooter();
 };
 

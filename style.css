@@ -38,6 +38,7 @@ main {
   justify-content: center;
 }
 
+
 .light-mode {
   background-color: var(--bg-light);
   background-image: url(./public/assets/images/cubes.png);
@@ -45,7 +46,6 @@ main {
   header {
     background-color: var(--bg-light);
     background-image: url(./public/assets/images/cubes.png);
-
   }
 
   #navbar {
@@ -150,6 +150,30 @@ main {
 
       .arrow {
         filter: invert(0);
+      }
+    }
+  }
+
+  #education {
+    h2 {
+      color: var(--bg-light);
+      text-shadow: 1px 1px 0 var(--detail-light), -1px 1px 0 var(--detail-light),
+        1px -1px 0 var(--detail-light), -1px -1px 0 var(--detail-light);
+
+      animation: neonLight 2s alternate infinite;
+    }
+
+    .education-card {
+      background-color: var(--bgcard-light);
+      box-shadow: 3px 3px 0px var(--bg-dark);
+      color: var(--font-light);
+
+      &:hover {
+        box-shadow: 3px 3px 3px var(--detail-light);
+      }
+
+      h3 {
+        color: var(--detail-light);
       }
     }
   }

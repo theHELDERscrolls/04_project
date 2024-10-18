@@ -50,6 +50,5 @@ export const createExperience = () => {
 
     section.appendChild(card);
   });
-
   main.appendChild(section);
 };
