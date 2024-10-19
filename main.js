@@ -7,13 +7,16 @@ import { createFooter } from "./src/components/Footer/Footer";
 import { createExperience } from "./src/components/Experience/Experience";
 import { activeDisplay } from "./src/utils/displayElement";
 import { createEducation } from "./src/components/Education/Education";
+import { createProjects } from "./src/components/Projects/Projects";
 
 const init = () => {
   createNavbar();
   lighDarkBtn();
-  createAboutMe();  createExperience();
+  createAboutMe();
+  createExperience();
   activeDisplay();
   createEducation();
+  // createProjects();
   createFooter();
 };
 

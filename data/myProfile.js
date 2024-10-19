@@ -71,6 +71,7 @@ export const dataProfile = {
   ],
   projects: [
     {
+      image: "/assets/images/project_copynteres.png",
       title: "Copynterest",
       description:
         "Copynterest is a photo-sharing platform inspired by Pinterest, featuring a curated selection of beautiful images generated from Unsplash's API. Discover, save, and share stunning visuals for your creative projects.",
@@ -78,6 +79,7 @@ export const dataProfile = {
       git: "https://github.com/theHELDERscrolls/03_project",
     },
     {
+      image: "/assets/images/project_tra.png",
       title: "Skyrimzon",
       description:
         "Skyrimzon: Your medieval fantasy store with the best selection of products inspired by Skyrim. Discover armors, weapons, potions, and more to live your own adventure.",
@@ -85,6 +87,7 @@ export const dataProfile = {
       git: "https://github.com/theHELDERscrolls/practica_DOM",
     },
     {
+      image: "/assets/images/project_skyrimzon.png",
       title: "The Raven Age Unofficial",
       description:
         "The Raven Age unofficial website. Visit to see our latest news, releases, tours, merch and more.",
