@@ -16,7 +16,7 @@ const init = () => {
   createExperience();
   activeDisplay();
   createEducation();
-  // createProjects();
+  createProjects();
   createFooter();
 };
 

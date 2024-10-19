@@ -23,25 +23,27 @@ export const createProjects = () => {
     p.textContent = element.description;
 
     const links = document.createElement("div");
-    const appLink = anchorTemplate(
+
+    links.innerHTML = `
+    ${anchorTemplate(
       "project-link",
       element.url,
       "img-link",
       "assets/icons/icon_web.svg",
       "web icon",
       "Website"
-    );
-    const gitLink = anchorTemplate(
+    )}
+
+    ${anchorTemplate(
       "project-link",
       element.git,
       "img-link",
       "assets/icons/icon_github.svg",
       "git icon",
       "Repository"
-    );
-    links.appendChild(appLink);
-    links.appendChild(gitLink);
-
+    )}
+    `;
+    
     div.appendChild(img);
     div.appendChild(h3);
     div.appendChild(p);
