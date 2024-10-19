@@ -1,3 +1,4 @@
+import "./Projects.css";
 import { dataProfile } from "../../../data/myProfile";
 import { anchorTemplate } from "../Anchor/Anchor";
 
@@ -7,10 +8,14 @@ export const createProjects = () => {
   section.id = "projects";
   const h2 = document.createElement("h2");
   h2.textContent = "My projects";
+  section.appendChild(h2);
+  const gridDiv = document.createElement("div");
+  gridDiv.className = "grid-project-card";
+  section.appendChild(gridDiv);
 
   dataProfile.projects.forEach((element) => {
-    const div = document.createElement("div");
-    div.className = "porject-card";
+    const divCard = document.createElement("div");
+    divCard.className = "project-card";
 
     const img = document.createElement("img");
     img.src = element.image;
@@ -43,13 +48,13 @@ export const createProjects = () => {
       "Repository"
     )}
     `;
-    
-    div.appendChild(img);
-    div.appendChild(h3);
-    div.appendChild(p);
-    div.appendChild(links);
 
-    section.appendChild(div);
+    divCard.appendChild(img);
+    divCard.appendChild(h3);
+    divCard.appendChild(p);
+    divCard.appendChild(links);
+
+    gridDiv.appendChild(divCard);
   });
 
   main.appendChild(section);
