@@ -8,6 +8,7 @@ import { createExperience } from "./src/components/Experience/Experience";
 import { activeDisplay } from "./src/utils/displayElement";
 import { createEducation } from "./src/components/Education/Education";
 import { createProjects } from "./src/components/Projects/Projects";
+import { changeSection } from "./src/utils/changeSectionBtn";
 
 const init = () => {
   createNavbar();
@@ -18,6 +19,7 @@ const init = () => {
   createEducation();
   createProjects();
   createFooter();
+  changeSection();
 };
 
 init();

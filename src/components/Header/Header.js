@@ -13,7 +13,7 @@ export const createNavbar = () => {
                     <a href="#work-experience">Experience</a>
                 </li>
                 <li class="default-display">
-                    <a href="#">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li class="default-display">
                     ${btnTemplate(
