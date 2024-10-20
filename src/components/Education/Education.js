@@ -7,7 +7,7 @@ export const createEducation = () => {
   section.id = "education";
 
   const h2 = document.createElement("h2");
-  h2.textContent = "Education";
+  h2.textContent = "> Education <";
   section.appendChild(h2);
 
   dataProfile.education.forEach((element) => {

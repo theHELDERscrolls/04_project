@@ -218,16 +218,15 @@ main {
         }
       }
     }
+  }
+  footer {
+    color: var(--font-light);
 
-    footer {
-      color: var(--font-light);
+    a {
+      color: var(--detail-light);
 
-      a {
-        color: var(--detail-light);
-
-        &:hover {
-          filter: drop-shadow(0px 0px 5px var(--detail-light));
-        }
+      &:hover {
+        filter: drop-shadow(0px 0px 5px var(--detail-light));
       }
     }
   }

@@ -8,7 +8,7 @@ export const createExperience = () => {
   section.id = "work-experience";
 
   const h2 = document.createElement("h2");
-  h2.textContent = "Experience";
+  h2.textContent = "> Experience <";
   section.appendChild(h2);
 
   dataProfile.workExperience.forEach((element) => {
