@@ -38,7 +38,6 @@ main {
   justify-content: center;
 }
 
-
 .light-mode {
   background-color: var(--bg-light);
   background-image: url(./public/assets/images/cubes.png);
@@ -178,14 +177,57 @@ main {
     }
   }
 
-  footer {
-    color: var(--font-light);
+  #projects {
+    h2 {
+      color: var(--bg-light);
+      text-shadow: 1px 1px 0 var(--detail-light), -1px 1px 0 var(--detail-light),
+        1px -1px 0 var(--detail-light), -1px -1px 0 var(--detail-light);
 
-    a {
-      color: var(--detail-light);
+      animation: neonLight 2s alternate infinite;
+    }
+
+    .project-card {
+      background-color: var(--bgcard-light);
+      box-shadow: 3px 3px 0px var(--bgcard-dark);
 
       &:hover {
-        filter: drop-shadow(0px 0px 5px var(--detail-light));
+        box-shadow: 3px 3px 3px var(--detail-light);
+      }
+
+      h3 {
+        color: var(--detail-light);
+      }
+
+      p {
+        color: var(--font-light);
+      }
+
+      div {
+        .project-link {
+          background-color: var(--bg-light);
+          box-shadow: 2px 2px 0px var(--font-light);
+          color: var(--font-light);
+
+          &:active {
+            border: 2px solid var(--detail-light);
+            box-shadow: 0px 0px 5px var(--detail-light);
+          }
+        }
+        .img-link {
+          filter: invert(0);
+        }
+      }
+    }
+
+    footer {
+      color: var(--font-light);
+
+      a {
+        color: var(--detail-light);
+
+        &:hover {
+          filter: drop-shadow(0px 0px 5px var(--detail-light));
+        }
       }
     }
   }
