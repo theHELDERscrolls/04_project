@@ -24,7 +24,7 @@
 
 body {
   background-color: var(--bg-dark);
-  background-image: url(./public/assets/images/carbon-fibre.png);
+  background-image: url(/assets/images/carbon-fibre.png);
 
   transition: all 0.3s ease-in-out;
 }
@@ -43,11 +43,11 @@ main {
 
 .light-mode {
   background-color: var(--bg-light);
-  background-image: url(./public/assets/images/cubes.png);
+  background-image: url(/assets/images/cubes.png);
 
   header {
     background-color: var(--bg-light);
-    background-image: url(./public/assets/images/cubes.png);
+    background-image: url(/assets/images/cubes.png);
   }
 
   #navbar {
