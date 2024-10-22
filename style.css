@@ -20,6 +20,7 @@
   -webkit-tap-highlight-color: transparent;
   -webkit-focus-ring-color: transparent;
   outline: none;
+  scroll-behavior: smooth;
 }
 
 body {
